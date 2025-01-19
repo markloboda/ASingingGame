@@ -30,6 +30,11 @@ namespace Assets.Scripts
 
       private EState _state = EState.Playing;
 
+      void Start()
+      {
+         ResumeGame();
+      }
+
       void Update()
       {
          if (Input.GetKeyDown(KeyCode.Escape))

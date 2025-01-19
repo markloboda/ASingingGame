@@ -83,6 +83,7 @@ namespace Assets.Scripts
          }
 
          _startingX = transform.position.x;
+         _movingSpeed = 1f;
       }
 
       void Update()

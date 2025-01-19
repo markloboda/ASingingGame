@@ -782,6 +782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Slider: {fileID: 1958896763}
+  PlayerPrefKey: MicThreshold
+  DefaultValue: 8
 --- !u!114 &638805088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1729,7 +1731,7 @@ MonoBehaviour:
   ObstaclePrefab: {fileID: 6672784538037572369, guid: b50d5bb6818f1d44f824104c194c907d, type: 3}
   FinishPrefab: {fileID: 6672784538037572369, guid: 1d337dfe37d221b4686953755c5f8411, type: 3}
   Mode: 0
-  GapSize: 0.2
+  ObstacleGapSize: 0.2
   RandomObstacleDistance: 0.8
   ObstacleDeltaTimeSec: 0.5
   FrequencyRangeOffset: 150
